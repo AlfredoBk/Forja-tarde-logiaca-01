@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Calculo de soma</h1>
-    <br>
-    <div>
- <label for="n1">Digite o primeiro número</label><br>
- <input type="number" id="n1"><br>
- <label for="n2">Digite o segundo número</label><br>
- <input type="number" id="n2"><br>
-<button onclick="soma() ">CÁlCULAR</button><br>
-<h2 id="respostaSoma"></h2>
 
+<body>
+    <h1>CALCULADORA</h1>
+    <div>
+        <h2>Cálculo de soma</h2>
+        <label for="n1">Digite o primeiro número</label>
+        <input type="number" id="n1" placeholder="Insira o número">
+        <label for="n2">Digite o segundo número</label>
+        <input type="number" id="n2" placeholder="Insira o número">
+        <button onclick="soma()">SOMAR</button>
+        <h3 id="respSoma"></h3>
     </div>
+    <div>
+        <h2>Cálculo de subtração</h2>
+        <label for="n3">Digite o primeiro número</label>
+        <input type="number" id="n3" placeholder="Insira o número">
+        <label for="n4">Digite o segundo número</label>
+        <input type="number" id="n4" placeholder="Insira o número">
+        <button onclick="sub()">SUBTRAIR</button>
+        <h3 id="respSub"></h3>
+    </div>
+    <div>
+        <h2>Cálculo de multiplicação</h2>
+        <label for="n5">Digite o primeiro número</label>
+        <input type="number" id="n5" placeholder="Insira o número">
+        <label for="n6">Digite o segundo número</label>
+        <input type="number" id="n6" placeholder="Insira o número">
+        <button onclick="multi()">MULTIPLICAR</button>
+        <h3 id="respMulti"></h3>
+    </div>
+    <div>
+        <h2>Cálculo de divisão</h2>
+        <label for="n7">Digite o primeiro número</label>
+        <input type="number" id="n7" placeholder="Insira o número">
+        <label for="n8">Digite o segundo número</label>
+        <input type="number" id="n8" placeholder="Insira o número">
+        <button onclick="div()">DIVIDIR</button>
+        <h3 id="respDiv"></h3>
+    </div>
+
     <script src="logica.js"></script>
 </body>
-</html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Calculo de sub</h1>
-    <br>
-    <div>
- <label for="n1">Digite o primeiro número</label><br>
- <input type="number" id="nl1"><br>
- <label for="n2">Digite o segundo número</label><br>
- <input type="number" id="nl2"><br>
-<button onclick="sub() ">CÁlCULAR</button><br>
-<h2 id="respostaSub"></h2>
-
-    </div>
-    <script src="logica.js"></script>
-</body>
 </html>
