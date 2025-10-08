@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  h1{
+    font-family: "Inter", sans-serif;
+    color: blueviolet;
+  }
+  body{
+   font-family: "Playwrite DE Grund Guides", cursive;
+  color: #ff00bf;
+  background-image: url('../bakha/luci.jpg');
+  color: #810e64;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ min-height: 100vh;
+
+  }
+  section{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+  }
+  input{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border: 2px solid blueviolet;
+    color: aliceblue;
+  }
+  
+  botton:hover{
+     background: #ffffff;
+    border: #8528af;
+    border: 2px solid #530e94;
+    cursor: pointer;
+  }
+}

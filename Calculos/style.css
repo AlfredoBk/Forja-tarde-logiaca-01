@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url('../Imagine/bg.jpg');
+    background-image: url('../Imagine/bg.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -23,7 +23,6 @@ h1{
     font-size: 56px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(72, 4, 104);
-    text-shadow:2px 3px 8px #360808;
 }
 
 div{
@@ -33,7 +32,6 @@ div{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     border-radius: 10px;
-    box-shadow:2px 3px 8px #010101;
     width: 300px;
     height: auto;
     text-align: center;
@@ -76,5 +74,4 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:2px 3px 8px #010101;
 }
